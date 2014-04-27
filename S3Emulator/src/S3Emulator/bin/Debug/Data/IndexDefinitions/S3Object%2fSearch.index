@@ -1,0 +1,18 @@
+{
+  "Name": "S3Object/Search",
+  "Map": "docs.S3Objects\r\n\t.Select(s3Object => new {Bucket = s3Object.Bucket, Key = s3Object.Key})",
+  "Maps": [
+    "docs.S3Objects\r\n\t.Select(s3Object => new {Bucket = s3Object.Bucket, Key = s3Object.Key})"
+  ],
+  "Reduce": null,
+  "TransformResults": null,
+  "IsMapReduce": false,
+  "IsCompiled": false,
+  "IsTemp": false,
+  "Stores": {},
+  "Indexes": {},
+  "SortOptions": {},
+  "Analyzers": {},
+  "Fields": [],
+  "Type": "Map"
+}

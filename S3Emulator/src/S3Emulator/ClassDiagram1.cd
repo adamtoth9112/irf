@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="S3Emulator.Config.S3Configuration" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAACAAAAAACAAAAAAAAgAQAAAAACAAAAAg=</HashCode>
+      <FileName>Config\S3Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.ConsoleEventListener" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQgAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>ConsoleEventListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Program" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAABAAAEAgAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.IO.StreamExtensions" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IO\StreamExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.IO.ThrottledStream" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQhAAAQRBA0HAAAAABpAAAQgEAgAAAAAAGIQCE=</HashCode>
+      <FileName>IO\ThrottledStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Model.Bucket" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Bucket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Model.S3Object" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAgAAgAQAAAAEAAAAAAAAAAAAAAgQIAAIAAA=</HashCode>
+      <FileName>Model\S3Object.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Bootstrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAIAAAAAAAAAAAAAACAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Server\Bootstrapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="S3Emulator.Server.S3Server" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAACCABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\S3Server.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="S3Emulator.Server.Modules.BucketModule" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAQAAAAAAACAAAAAAAAQAgAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Server\Modules\BucketModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Modules.S3ObjectModule" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAAAAIAAAAAIAAAAABACAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Server\Modules\S3ObjectModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Modules.ServiceModule" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Server\Modules\ServiceModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.ACLRequest" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\ACLRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.BucketNotFound" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\BucketNotFound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.DeleteRequest" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\DeleteRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.DeleteObject" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\DeleteRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.DynamicXmlBuilder" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAERQEgQEAECAAgAABAgAAAgAAAAABACBAAAAQ=</HashCode>
+      <FileName>Server\Responses\DynamicXmlBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.S3ObjectSearchRequest" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAQAKAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\S3ObjectSearchRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.S3ObjectSearchResponse" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAgAAAAAAAQAKQAAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>Server\Responses\S3ObjectSearchResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.S3XmlResponder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Server\Responses\S3XmlResponder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.Serializers.AbstractS3Serializer&lt;TModel&gt;" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\Serializers\AbstractS3Serializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.Serializers.ACLSerializer" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\Serializers\ACLSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.Serializers.BucketListSerializer" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\Serializers\BucketListSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.Serializers.BucketNotFoundSerializer" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\Serializers\BucketNotFoundSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.Serializers.DateTimeExtensions" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\Serializers\DateTimeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.Serializers.DeleteResultSerializer" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\Serializers\DeleteResultSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.Serializers.NullSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\Serializers\NullSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="S3Emulator.Server.Responses.Serializers.S3ObjectSearchSerializer" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\Serializers\S3ObjectSearchResponeSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Storage.Indexes.S3Object_Search" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Storage\Indexes\S3Object_Search.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S3Emulator.Storage.RavenDBStorage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQEAAAQAAAAAIICIAAIAAAAABEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Storage\RavenDBStorage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="S3Emulator.Server.Responses.IS3Responder" Collapsed="true">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Server\Responses\IS3Responder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="S3Emulator.Server.Responses.Serializers.IS3Serializer" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server\Responses\Serializers\IS3Serializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="S3Emulator.Storage.IS3Storage" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQEAAAQAAAAAIACAAAIAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Storage\IS3Storage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
