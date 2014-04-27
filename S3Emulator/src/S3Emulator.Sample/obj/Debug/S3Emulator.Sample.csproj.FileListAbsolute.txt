@@ -56,3 +56,6 @@ D:\Dropbox\irf\harmadik_hf\src\S3Emulator\src\S3Emulator.Sample\bin\Debug\Nancy.
 D:\Dropbox\irf\harmadik_hf\src\S3Emulator\src\S3Emulator.Sample\bin\Debug\FiddlerCore4.dll
 D:\Dropbox\irf\harmadik_hf\src\S3Emulator\src\S3Emulator.Sample\bin\Debug\S3Emulator.pdb
 D:\Dropbox\irf\harmadik_hf\src\S3Emulator\src\S3Emulator.Sample\bin\Debug\FiddlerCore4.xml
+D:\git\irf\S3Emulator\src\S3Emulator.Sample\bin\Debug\S3Emulator.Sample.exe.config
+D:\git\irf\S3Emulator\src\S3Emulator.Sample\obj\Debug\S3Emulator.Sample.exe
+D:\git\irf\S3Emulator\src\S3Emulator.Sample\obj\Debug\S3Emulator.Sample.pdb
